@@ -1,5 +1,5 @@
 const array = [12, 8, 9, 10, 1];
-//  achievable through O(n)
+//  achievable through O(N^2)
 // function SlidingWindow(arr, num) {
 //   //    we have to check if the number is greater than 2 if not then return;
 //   if (num < 2 || num > arr.length) {
@@ -25,7 +25,7 @@ const array = [12, 8, 9, 10, 1];
 //   }
 //   return sum;
 // }
-
+//achievable through O(N)
 function SlidingWindow(arr, num) {
   // if number is grater then the array and num is less then 2 than return;
   if (num > arr.length || num < 2) {
